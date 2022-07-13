@@ -1,0 +1,281 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: Whitney, Calibri;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  background-color: #37384c;
+  height: 72px;
+  text-align: left;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.salv {
+  margin: 22px 0 0 104px;
+}
+
+#sec-1 {
+  position: relative;
+  align-items: center;
+  height: 612px;
+  background-color: #37384c;
+  color: #ffffff;
+  letter-spacing: 0.05vw;
+  overflow: hidden;
+}
+
+#sec-1 .illustration-1 {
+  width: 100%;
+  min-width: 1200px;
+  min-height: 28px;
+  position: relative;
+  left: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: -200%;
+}
+
+#sec-1 .illustration-2 {
+  position: absolute;
+  pointer-events: none;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#sec-1 > h1 {
+  font-weight: 325;
+  font-size: 48px;
+  line-height: 56px;
+}
+#sec-1 > h1 > br {
+  display: none;
+}
+
+#sec-1 > p {
+  margin-top: 240px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 25px;
+  opacity: 0.64;
+}
+
+#sec-1 .expert-button {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 56px;
+  height: 44px;
+  width: 192px;
+  background: #4a91f2;
+  box-shadow: 0px 1px 2px rgba(55, 56, 76, 0.16),
+    0px 4px 8px rgba(55, 56, 76, 0.08), 0px 8px 16px rgba(55, 56, 76, 0.04);
+  border-radius: 10px;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+#sec-1 .expert-button:hover {
+  background-color: #649ceb;
+}
+
+#sec-2 > div {
+  position: absolute;
+  width: 944px;
+  height: 248px;
+  left: calc(50% - 944px / 2);
+  top: calc(585px + 72px);
+  background: #f9fbfd;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+#sec-2 .join-us {
+  margin: 36px 0 0 0;
+  font-weight: 325;
+  font-size: 20px;
+  line-height: 28px;
+  opacity: 0.64;
+  letter-spacing: 0.03vw;
+}
+
+#sec-2 #logos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 28px 0;
+}
+
+#sec-2 > div .logo {
+  height: 40px;
+  margin: 10px 28px;
+}
+
+#sec-2 > div .lhv {
+  height: 43px;
+  margin-top: 8px;
+}
+#sec-2 > div .luminor {
+  height: 36px;
+  margin-top: 13px;
+}
+#sec-2 > div .vybe {
+  height: 47px;
+  margin-top: 5px;
+}
+#sec-2 > div .binks {
+  height: 35px;
+  padding-bottom: 14px;
+}
+
+.why-us {
+  margin: 308px 0 0 0;
+  color: #e0820b;
+  font-weight: 325;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.05vw;
+}
+
+.thats-why {
+  margin: 40px 0 126px 0;
+  font-weight: 325;
+  font-size: 20px;
+  line-height: 28px;
+  color: #37384c;
+  letter-spacing: 0.01vw;
+}
+
+footer {
+  height: 64px;
+  background: #37384c;
+}
+
+@media (max-width: 1000px) {
+  #sec-2 > div {
+    left: calc(50% - 95% / 2);
+    width: 95%;
+    height: auto;
+  }
+
+  #sec-2 .join-us {
+    margin: 36px 0 0 0;
+    font-size: calc(0.5vw + 15px);
+    padding: 0 3%;
+    line-height: 28px;
+  }
+
+  #sec-2 > div .logo {
+    min-height: 30px;
+    min-width: 40px;
+    height: calc(1vw + 32px);
+    margin: 2% 4%;
+  }
+  #sec-2 > div .lhv {
+    height: calc(1vw + 32px);
+    margin-top: 10px;
+  }
+  #sec-2 > div .luminor {
+    height: calc(1vw + 27px);
+    margin-top: 15px;
+  }
+  #sec-2 > div .juni {
+    margin-top: 11px;
+  }
+  #sec-2 > div .swedbank {
+    margin-top: 11px;
+  }
+  #sec-2 > div .seb {
+    margin-top: 11px;
+  }
+  #sec-2 > div .vybe {
+    height: calc(1vw + 37px);
+    margin-top: 4px;
+  }
+  #sec-2 > div .binks {
+    height: calc(1vw + 28px);
+    margin-top: 15px;
+  }
+  #sec-2 > div .truelayer {
+    height: calc(1vw + 28px);
+    margin-top: 16px;
+  }
+
+  .why-us {
+    margin-top: 380px;
+    padding: 0 4%;
+    font-size: calc(2.1vw + 26px);
+  }
+
+  .thats-why {
+    padding: 0 4%;
+    margin: calc(20px + 2%) 0 126px 0;
+    font-size: calc(0.5vw + 15px);
+  }
+}
+
+@media (max-width: 800px) {
+  .salv {
+    margin: 22px 0 0 8vw;
+  }
+
+  #sec-1 .illustration-1 {
+    min-width: 900px;
+    min-height: 28px;
+    margin-top: calc(30px + 1.5vw);
+    margin-bottom: 12%;
+  }
+  #sec-1 {
+    height: calc(530px + 10vw);
+  }
+
+  #sec-2 > div {
+    top: calc(575px + 10vw);
+  }
+
+  #sec-1 > h1 {
+    font-size: calc(2.5vw + 25px);
+    line-height: calc(3vw + 27px);
+    padding: 20px;
+  }
+  #sec-1 > h1 > br {
+    display: block;
+  }
+
+  #sec-1 > p {
+    margin-top: 20px;
+    font-size: calc(1.5vw + 10px);
+    line-height: calc(1.5vw + 15px);
+  }
+
+  #sec-1 .expert-button {
+    margin: 56px calc(50% - 192px / 2);
+    height: calc(34px + 1vw);
+    width: calc(132px + 6vw);
+    font-weight: 350;
+    font-size: calc(12px + 0.5vw);
+  }
+
+  .thats-why br {
+    display: none;
+  }
+  .why-us {
+    margin: calc(605px - 32vw) 0 0 0;
+  }
+}
